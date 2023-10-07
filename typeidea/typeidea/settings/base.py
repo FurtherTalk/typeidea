@@ -31,6 +31,12 @@ SECRET_KEY = 'django-insecure-amxvys(zt@67j-hn57-x=fse)b*uj4nz&&1a@c33=i@0c_n=0&
 # Application definition
 
 INSTALLED_APPS = [
+    # My Apps
+    'blog',
+    'config',
+    'comment',
+    
+    # Django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
